@@ -17,6 +17,9 @@
       </list>
     </option>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/example/GestorFacturas.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProjectId" id="1zSRdGezsp07XQwfiMRFwlZqy4s" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />

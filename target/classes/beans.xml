@@ -5,7 +5,13 @@
         https://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <!-- añadimos el ID y la clase y añadimos en class la ruta de la clase -->
-    <bean id="calculatorService" class="com.example.CalculatorService">
+    <bean id="calculadora" class="com.example.Calculadora">
+    </bean>
+
+    <bean id="gestorFacturas" class="com.example.GestorFacturas">
+        <!-- Pasamos los atributos de la clase: name es que tenemos en el atributo de la clase -->
+        <constructor-arg name="calculadora" ref="calculadora" />
+        <constructor-arg name="nombre" value="Facturator 3000" />
     </bean>
 
 </beans>
